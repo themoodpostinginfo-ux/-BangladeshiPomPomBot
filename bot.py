@@ -1,7 +1,8 @@
+import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8582657747:AAHAQktTw84Hbv7z7I01tx945toURhwHmR4"
+TOKEN = os.getenv ("BOT_TOKEN")
 
 CHANNEL_URL = "https://t.me/Expose_Mat_Karo"
 GROUP_URL = "https://t.me/Context_Idhar_Hain"
